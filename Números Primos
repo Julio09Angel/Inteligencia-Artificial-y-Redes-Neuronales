@@ -1,0 +1,16 @@
+def BuscarPrimos():
+  print("Se buscarán los numeros primos en el rango que le interese")
+  inicio=int(input("\nIngrese el inicio del rango para buscar: "))
+  fin=int(input("Ingrese el final del rango para buscar: "))
+  print("\nLos números primos dentro del rango son los siguientes:")
+
+  for num in range(inicio, fin+1):
+    cont=0
+    cam=2
+    while cam<num and cont==0:
+      res=num%cam
+      cam=cam+1
+      if res == 0:
+        cont=cont+1
+    if cont == 0:
+      print(num)
