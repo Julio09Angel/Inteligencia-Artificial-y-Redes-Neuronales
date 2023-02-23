@@ -1,4 +1,5 @@
-#Programa para saludar
+#Crear una lista e invertirla
+
 #Julio Angel Arias Bartolo
 #1954467
 #LMV-N1
@@ -39,4 +40,4 @@ else:
 n=-1
 while n>-lst-1:
   print(lista[n])
-  n=n-14
+  n=n-1
